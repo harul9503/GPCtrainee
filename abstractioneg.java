@@ -18,7 +18,8 @@ class bike extends vehicle{
 
 public class abstractioneg{
     public static void main(String[] args) {
-        vehicle myc=new car();
+        vehicle myc=new bike();
         myc.start();
+        myc.stop();
     }
 }
